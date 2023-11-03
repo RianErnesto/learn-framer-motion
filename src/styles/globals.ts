@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     * {
@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	min-height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -53,4 +54,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-`;
+`

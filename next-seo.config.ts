@@ -1,13 +1,13 @@
-import { DefaultSeoProps } from "next-seo";
+import { DefaultSeoProps } from 'next-seo'
 
 const config: DefaultSeoProps = {
-  title: "Nome do Site",
-  description: "Descrição do Site",
+  title: 'Learn Framer Motion',
+  description: 'Descrição do Site',
   openGraph: {
-    type: "website",
-    siteName: "Nome do Site",
-    url: "http://localhost:3000",
-  }
-};
+    type: 'website',
+    siteName: 'Learn Framer Motion',
+    url: 'http://localhost:3000',
+  },
+}
 
-export default config;
+export default config
